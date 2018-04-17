@@ -1,6 +1,6 @@
-#include <SkriBot.h>
+#include <Skribot.h>
 
-SkriBot robot; 
+Skribot robot; 
 
 void setup() {
   robot.AddDCRotor("Left");

@@ -1,13 +1,17 @@
-#include <SkriBot.h>
+#include <Skribot.h> //dołączenie biblioteki do projektu
 
-SkriBot robot; 
+//zadanie polega na implementacji pętli iteracyjnej
+
+Skribot robot; //zdefiniowanie Skribota
 
 void setup() {
-  robot.AddDCRotor("Left");
-  robot.AddDCRotor("Right");
-  robot.SetSpeed(250);
+  robot.AddDCRotor("Left"); //zdefiniowanie lewego silnika
+  robot.AddDCRotor("Right"); //zdefiniowanie prawego silnika
+  robot.SetSpeed(250); //ustawienie prędkości na maksymalną
 
-  for(int i=0; i <= 3; i=i+1){
+  
+  //pętla iteracyjna
+  for(int i=0; i <= 3; i=i+1){ 
     robot.MoveForward(2000);
     robot.FaceRight(500);
     robot.MoveForward(2000);

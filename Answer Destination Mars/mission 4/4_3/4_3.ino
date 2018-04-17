@@ -1,14 +1,11 @@
-#include <SkriBot.h>
+#include <Skribot.h>
 
-SkriBot robot; 
+Skribot robot; 
 
 void setup() {
   robot.AddDCRotor("Left");
   robot.AddDCRotor("Right");
   robot.SetSpeed(250);
-
- 
-  
 }
 
 void loop() {
