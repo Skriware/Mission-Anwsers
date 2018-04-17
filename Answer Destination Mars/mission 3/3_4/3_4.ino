@@ -1,12 +1,13 @@
-#include <SkriBot.h>
+#include <Skribot.h> //dołączenie biblioteki
 
-SkriBot robot; 
+Skribot robot; //zdefiniowanie Skribota
 
 void setup() {
-  robot.AddDCRotor("Left");
-  robot.AddDCRotor("Right");
-  robot.SetSpeed(250);
-  //square shape
+  robot.AddDCRotor("Left"); //dodanie lewego silnika
+  robot.AddDCRotor("Right"); //dodanie prawego silnika
+  robot.SetSpeed(250); //ustawienie prędkości na maksymalne ustawienia
+  
+  //kształt kwadratu
   robot.MoveForward(2000);
   robot.FaceRight(1000);
   robot.MoveForward(2000);

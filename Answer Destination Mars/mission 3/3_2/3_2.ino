@@ -1,6 +1,6 @@
-#include <SkriBot.h> //dołączenie biblioteki
+#include <Skribot.h> //dołączenie biblioteki
 
-SkriBot robot; //przydzielenie nazwy Skribotowi
+Skribot robot; //przydzielenie nazwy Skribotowi
 
 void setup() {
   //kod umieszczony w tej funkcji zostanie wykonany raz:
