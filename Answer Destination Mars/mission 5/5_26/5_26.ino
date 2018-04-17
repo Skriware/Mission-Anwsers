@@ -1,7 +1,7 @@
 #include <Skribot.h>
 
 
- Skribot robot;   
+  Skribot robot;   
   
 void setup() {
   
@@ -17,7 +17,7 @@ void loop() {
              robot.TurnLEDOn(0,0,255);
    }
 
-   else{
+   if(5+2==2){
             robot.TurnLEDOn(255,0,0);
    }
     
